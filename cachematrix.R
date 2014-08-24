@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Creates a matrix function to invert it and
+## Creates a special matrix object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 	x <- NULL
